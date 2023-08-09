@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/l9pvsute3xbxua36?svg=true)](https://ci.appveyor.com/project/VasilyErm/unitpatterns1)
