@@ -42,7 +42,6 @@ class DeliveryTest {
         $("[data-test-id='replan-notification'] .notification__content")
                 .shouldBe(text("У вас уже запланирована встреча на другую дату. Перепланировать?"))
                 .shouldBe(visible);
-        sleep(2000);
         $("[data-test-id='replan-notification'] .button__text").click();
         $("[data-test-id='success-notification'] .notification__content")
                 .shouldBe(Condition.exactText("Встреча успешно запланирована на " + secondMeetingDate))
